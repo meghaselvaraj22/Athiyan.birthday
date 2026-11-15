@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff0f5, #ffcddd, #ffe4ec);
+    min-height: 100vh;
+    text-align: center;
+    color: #a34770;
+}
+
+.welcome {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.8);
+    padding: 45px 25px;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px #d879a544;
+    max-width: 420px;
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 65px;
+    color: #e879a5;
+}
+
+.card h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #d65e90;
+    margin: 20px;
+}
+
+.card p {
+    margin: 15px;
+}
+
+button {
+    background: #e879a5;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #d65e90;
+    transform: scale(1.05);
+}
+
+#surprise {
+    display: none;
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#surprise h1 {
+    font-size: 45px;
+    margin: 20px;
+}
+
+#surprise h2 {
+    font-size: 55px;
+    color: #d65e90;
+    margin: 20px;
+}
+.birthday-cake {
+    font-size: 100px;
+    margin: 30px auto;
+    animation: cakeBounce 1.5s infinite ease-in-out;
+}
+
+.cake-message {
+    font-size: 22px;
+    color: #d65e90;
+    font-family: Georgia, serif;
+}
+
+@keyframes cakeBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.letter {
+    background: #fff8fb;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px #d879a555;
+    border: 2px solid #ffd1e1;
+}
+
+.letter h2 {
+    color: #d65e90;
+    font-family: Georgia, serif;
+    margin-bottom: 25px;
+}
+
+.letter p {
+    color: #99516f;
+    font-size: 17px;
+    line-height: 1.8;
+}
